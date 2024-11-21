@@ -1,0 +1,194 @@
+<html style="scroll-behavior: smooth;">
+
+<head>
+
+	<meta charset="utf-8"/>
+
+	<title>Мое портфолио</title>
+	
+	<link href="css/style.css" rel="stylesheet"/>
+	<link href="css/images.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+
+<div class="menu">
+  <div style="padding-right:200px;height:40px;"></div>
+  <a href="#aboutMe">Обо мне</a>
+  <a href="#services">Проекты</a>
+  <a href="#skils">Навыки</a>
+  <a href="#myCont">Контакты</a>
+</div>
+
+<div style="padding-top:120px;"></div>
+
+<div class="tittle" id="aboutMe">
+	<h2>Обо мне</h2>
+</div>
+
+<div class="about">
+		
+		<img id="myImg" src="./data/avat.jpg" alt="фото" style="width:100%;max-width:300px">
+		
+		<div class="about-text">
+		Привет, меня зовут Наталья, рада видеть вас на своем сайте.
+		Я занимаюсь созданием сайтов с использованием HTML5, CSS3 и JavaScript.
+		<p>Если вам интересны одностраничники для рекламы, торговли или каких-либо
+		личных целей, буду рада вам в этом помочь. Мои контактные данные вы найдете
+		в соответствующем пункте данного сайта.
+		</div>
+		
+</div>
+
+<div class="tittle" style="box-shadow: 0 -8px 6px -4px rgba(0, 0, 0, .5);" id="services">
+	<h2>Проекты</h2>
+</div>
+
+<div class="main-serv">
+		
+		<div>
+			<p>сайт 1</p>
+			
+			<div>
+			 <img src="./data/site1.png" alt="Сайт 1" style="width:100%; height:100%;">
+			</div>
+			
+			<div style="width:375px; text-align:center;">
+			<p>Сообственно, сам сайт обо мне. Один из первых моих проектов.
+			Не смотря на простой вид, он активно использует как CSS3, так
+			и JavaScript. Ну и HTML5 соответственно. Его исходники, если кому 
+			интересно, можно найти на моем репозитории GitHub'а, перейдя туда,
+			нажав на кнопку.
+			</div>
+			
+			<button class="button but-git">
+			Git
+			</button>
+			
+		</div>
+		
+		<div>
+			<p>сайт 2</p>
+			
+			<div>
+			 <img src="./data/site2.png" alt="Сайт 2" style="width:100%; height:100%;">
+			</div>
+			
+			<div style="width:375px; text-align:center;">
+			Сайт, посвященный сборкам примеров по верстке сайтов. Собраны
+			различные стили и функции для функционального проекта, часть из которых 
+			применялись при написании данного сайта. Надеюсь, начинающим 
+			разработчикам будет интересно.
+			</div>
+			
+			<button class="button but-git">
+			Git
+			</button>
+			
+		</div>
+</div>
+
+<div class="tittle" id="skils">
+	<h2>Навыки</h2>
+</div>
+
+<div class="main-skils">
+		
+	<div>
+		<table class="customers">
+		  <tr>
+			<th>Курсы</th>
+		  </tr>
+		  <tr>
+			<td>HTML5 и CSS</td>
+		  </tr>
+		  <tr>
+			<td>JavaScript и jQuery</td>
+		  </tr>
+		  <tr>
+			<td>Web development with Java</td>
+		  </tr>
+		  <tr>
+			<td>Java Web Services</td>
+		  </tr>
+		  <tr>
+			<td>Advanced JavaScript</td>
+		</table>
+	</div>
+		
+	<div>
+		<table class="customers">
+		  <tr>
+			<th>Инструменты</th>
+		  </tr>
+		  <tr>
+			<td>Bootstrap</td>
+		  </tr>
+		  <tr>
+			<td>Github</td>
+		  </tr>
+		  <tr>
+			<td>Eclipse</td>
+		  </tr>
+		  <tr>
+			<td>Brackets</td>
+		  </tr>
+		  <tr>
+			<td>NetBeans</td>
+		  </tr>
+		</table>
+	</div>
+		
+	<div>
+		<table class="customers">
+		  <tr>
+			<th>Языки</th>
+		  </tr>
+		  <tr>
+			<td>HTML5</td>
+		  </tr>
+		  <tr>
+			<td>CSS</td>
+		  </tr>
+		  <tr>
+			<td>JavaScript</td>
+		  </tr>
+		  <tr>
+			<td>JQuery</td>
+		  </tr>
+		</table>
+	</div>
+		
+</div>
+
+
+<div class="tittle" id="myCont">
+	<h2>Контакты</h2>
+</div>
+
+
+<div class="contacts">
+
+<ul class="social">
+    <li><a href="https://vk.com/nataliarad95"><i>vk</i></a></li>
+    <li><a href="https://github.com/Nata58"><i>git</i></a></li>
+    <li><a href="mailto:22Vinogradova@inbox.ru"><i>mail</i></a></li>
+</ul>
+
+</div>
+
+<button onclick="upFunction()" id="upBtn" title="Вверх">Вверх</button>
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+	<img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script src="script/script.js"></script>
+<script src="script/images.js"></script>
+
+</body>
+
+</html>
